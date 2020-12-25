@@ -18,6 +18,9 @@ on:
   #   - cron: 0 20 * * *
   release:
     types: [published]
+    
+env: 
+  TZ: Asia/Shanghai
 
 jobs:
 
